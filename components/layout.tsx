@@ -8,10 +8,10 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <div
-      className="flex flex-col h-full bg-red-550 bg-top bg-repeat-y bg-cover"
+      className="flex flex-col h-full bg-sky-550 bg-bottom bg-no-repeat bg-cover"
       style={{
         backgroundImage: `url(${getAssetUrl(
-          'images/bg-vibrant-colors-striped.png'
+          'images/bg-futuristic-fold-with-coconut-trees.svg'
         )})`,
       }}
     >

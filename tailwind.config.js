@@ -13,6 +13,7 @@ module.exports = {
         lg: { raw: '(min-width: 1280px) and (min-height: 720px)' },
       },
       colors: {
+        'sky-550': 'rgba(1, 151, 179, 1)',
         'red-550': 'rgba(233, 27, 61, 1)',
         'violet-350': 'rgba(170, 56, 149, 1)',
         'cyan-450': 'rgba(7, 180, 209, 1)',
