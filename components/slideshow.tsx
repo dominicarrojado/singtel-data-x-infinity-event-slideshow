@@ -4,7 +4,6 @@ import { useGetEntries } from '../lib/custom-hooks';
 import EntryList from './entryList';
 import LoaderBubbles from './loaderBubbles';
 import Error from './error';
-import Logo from './logo';
 import Banner from './banner';
 import { FetchState } from '../lib/types';
 
@@ -43,12 +42,7 @@ export default function Slideshow() {
           'lg:flex lg:portrait:hidden'
         )}
       >
-        <div className="h-[36%]">
-          <Logo />
-        </div>
-        <div className="h-[64%]">
-          <Banner />
-        </div>
+        <Banner />
       </div>
     </>
   );

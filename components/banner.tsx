@@ -1,16 +1,16 @@
 import React from 'react';
 import { getAssetUrl } from '../lib/assets';
-import { APP_URL } from '../lib/constants';
+import { APP_URL, MAIN_DESC } from '../lib/constants';
 
 export default function Banner() {
   return (
-    <a href={APP_URL}>
+    <a href={APP_URL} className="h-full">
       <img
-        src={getAssetUrl('images/banner-cnb-anti-drug-abuse-campaign.png')}
-        alt="Secure a #DrugFreeSG | Organised by: National Council Against Drug Abuse, Central Narcotics Bureau | In collaboration with: Singapore Polytechnic | Win up to $100 worth of vouchers in a bi-monthly draw"
-        width="677"
-        height="599"
-        className="w-full h-full aspect-[677/599] border-[3px] border-white"
+        src={getAssetUrl('images/banner-data-x-infinity-event.svg')}
+        alt={MAIN_DESC}
+        width="652"
+        height="985"
+        className="w-full h-full aspect-[652/985]"
       />
     </a>
   );
