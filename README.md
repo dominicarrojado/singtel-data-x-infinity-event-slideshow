@@ -1,8 +1,8 @@
-# CNB Anti-Drug Abuse Campaign Slideshow
+# Singtel Data X Infinity Event Slideshow
 
-![CI/CD](https://github.com/dominicarrojado/cnb-anti-drug-abuse-campaign-slideshow/workflows/CI/CD/badge.svg)
+![CI/CD](https://github.com/dominicarrojado/singtel-data-x-infinity-event-slideshow/workflows/CI/CD/badge.svg)
 
-A slideshow of pledges submitted to the [anti-drug campaign photo contest app](https://dominicarrojado.com/cnb-anti-drug-abuse-campaign-app/) built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
+A slideshow of images submitted to the [Singtel's Data X Infinity event app](https://dominicarrojado.com/singtel-data-x-infinity-event-app/) built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Quick Start
 
@@ -10,13 +10,13 @@ A slideshow of pledges submitted to the [anti-drug campaign photo contest app](h
 2. Clone the app:
 
 ```bash
-git clone git@github.com:dominicarrojado/cnb-anti-drug-abuse-campaign-slideshow.git
+git clone git@github.com:dominicarrojado/singtel-data-x-infinity-event-slideshow.git
 ```
 
 3. Install dependencies:
 
 ```bash
-cd cnb-anti-drug-abuse-campaign-slideshow
+cd singtel-data-x-infinity-event-slideshow
 yarn install
 ```
 
