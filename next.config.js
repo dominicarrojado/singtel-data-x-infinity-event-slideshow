@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   pageExtensions: ['page.tsx'],
-  basePath: isProd ? '/cnb-anti-drug-abuse-campaign-slideshow' : '',
+  basePath: isProd ? '/singtel-data-x-infinity-event-slideshow' : '',
 };
 
 module.exports = nextConfig;
