@@ -28,17 +28,13 @@ export const ENTRY_ANIM_DELAY_MAX_SECONDS = 16;
 
 export const IMAGE_GENERATED_TYPE = 'image/png';
 
-export const FONTS = ['DIN-Regular', 'DIN-Italic'];
+export const FONTS = ['MyriadPro-Regular'];
 
 export const STICKERS = [
-  getAssetUrl('images/sticker-1-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-2-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-3-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-4-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-5-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-6-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-7-ribbon-secure-a-drug-free-sg.png'),
-  getAssetUrl('images/sticker-8-certified-drug-free.png'),
+  getAssetUrl('images/sticker-1-party-dinosaur.png'),
+  getAssetUrl('images/sticker-2-ring-planet.png'),
+  getAssetUrl('images/sticker-3-athletic-fox.png'),
+  getAssetUrl('images/sticker-4-cute-clam.png'),
 ];
 export const STICKERS_LENGTH = STICKERS.length;
 

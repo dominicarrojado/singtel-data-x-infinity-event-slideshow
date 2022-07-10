@@ -30,10 +30,8 @@ export default function EntryItem({ entry }: Props) {
         />
         <div
           className={cn('absolute inset-0', {
-            'bg-violet-350': entry.bgColor === Color.VIOLET,
-            'bg-red-550': entry.bgColor === Color.RED,
-            'bg-cyan-450': entry.bgColor === Color.CYAN,
-            'bg-yellow-450': entry.bgColor === Color.YELLOW,
+            'bg-sky-350': entry.bgColor === Color.SKY,
+            'bg-pink-650': entry.bgColor === Color.PINK,
             'animate-slide-up': entry.bgDirection === Direction.UP,
             'animate-slide-right': entry.bgDirection === Direction.RIGHT,
             'animate-slide-down': entry.bgDirection === Direction.DOWN,
@@ -48,7 +46,7 @@ export default function EntryItem({ entry }: Props) {
           )}
           style={overlayStyle}
         >
-          <p className="p-[15px] text-center text-white text-[1.3vw] leading-[1.5vw] italic">
+          <p className="p-[15px] text-center text-white text-[1.3vw] leading-[1.5vw]">
             {entry.message}
           </p>
           <footer className="sr-only">{entry.name}</footer>

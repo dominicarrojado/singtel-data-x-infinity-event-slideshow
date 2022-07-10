@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-red-550;
+    @apply bg-sky-550;
   }
 
   html,

@@ -6,10 +6,8 @@ export enum FetchState {
 }
 
 export enum Color {
-  VIOLET = 'violet',
-  CYAN = 'cyan',
-  RED = 'red',
-  YELLOW = 'yellow',
+  SKY = 'sky',
+  PINK = 'pink',
 }
 
 export enum Direction {

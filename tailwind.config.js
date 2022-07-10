@@ -6,18 +6,16 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['DIN', 'Helvetica', 'Arial', 'sans-serif'],
+      sans: ['Myriad Pro', 'Helvetica', 'Arial', 'sans-serif'],
     },
     extend: {
       screens: {
         lg: { raw: '(min-width: 1280px) and (min-height: 720px)' },
       },
       colors: {
+        'sky-350': 'rgba(59, 152, 180, 1)',
         'sky-550': 'rgba(1, 151, 179, 1)',
-        'red-550': 'rgba(233, 27, 61, 1)',
-        'violet-350': 'rgba(170, 56, 149, 1)',
-        'cyan-450': 'rgba(7, 180, 209, 1)',
-        'yellow-450': 'rgba(250, 187, 0, 1)',
+        'pink-650': 'rgba(210, 80, 147, 1)',
       },
       keyframes: {
         expand: {

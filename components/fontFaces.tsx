@@ -29,24 +29,15 @@ export default function FontFaces() {
         dangerouslySetInnerHTML={{
           __html: `
             @font-face {
-              font-family: 'DIN';
+              font-family: 'Myriad Pro';
               font-style: normal;
               font-weight: 400;
               src: url('${getAssetUrl(
-                'fonts/DIN-Regular.woff2'
+                'fonts/MyriadPro-Regular.woff2'
               )}') format('woff2'),
-                url('${getAssetUrl('fonts/DIN-Regular.woff')}') format('woff');
-              font-display: swap;
-            }
-          
-            @font-face {
-              font-family: 'DIN';
-              font-style: italic;
-              font-weight: 400;
-              src: url('${getAssetUrl(
-                'fonts/DIN-Italic.woff2'
-              )}') format('woff2'),
-                url('${getAssetUrl('fonts/DIN-Italic.woff')}') format('woff');
+                url('${getAssetUrl(
+                  'fonts/MyriadPro-Regular.woff'
+                )}') format('woff');
               font-display: swap;
             }
           `,
